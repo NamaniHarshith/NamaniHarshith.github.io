@@ -1,0 +1,106 @@
+.signup-container {
+    position: absolute;
+    width: 500px;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 20px;
+    max-width: 500px; /* Maximum width */
+    min-width: 350px; 
+  }
+  
+  .signup-container h2 {
+    color: #333;
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+  }
+  
+  .signup-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  .social-login {
+    display: flex;
+    
+    justify-content: flex-end; /* Align items to the right */
+    gap: 1rem; /* Adds spacing between the buttons */
+    margin-left: 10rem;
+  }
+  
+  
+  .signup-container input,
+  .signup-container button {
+    width: 100%; /* Ensures full width of container */
+    padding: 1rem;
+    margin: 0.5rem 0; /* Add space between the fields */
+    font-size: 1rem;
+    border-radius: 10px;
+    box-sizing: border-box; /* Include padding in the width */
+  }
+  
+  .signup-container input {
+    border: 1px solid #ddd;
+  }
+  
+  .signup-container button {
+    color: #fff;
+    background-color: #5A4FF2;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .password-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%; /* Ensure password container takes up full width */
+  }
+  
+  .password-container input {
+    width: 120%; /* Makes the password field take the full width of the container */
+    padding: 1rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+  
+  .password-container span {
+    position: absolute;
+    right: 10px;
+    color: #5A4FF2;
+    cursor: pointer;
+    padding-right: 1rem;
+    margin-right: 0; /* Adjust margin to align with the input field */
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+  }
+  
+
+  
+  .social-login button {
+    flex: 1;
+    margin: 0 0.5rem;
+    font-size: 1rem;
+    color: #333;
+    background-color: #F1F1F1;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .logo-container {
+    position: absolute;
+    left: 10px;
+    z-index: 1000; /* Ensure logo stays on top */
+  }
+  
+  .logo {
+    width: 50px; /* Adjust the width of the logo */
+    height: auto;
+  }
+  
